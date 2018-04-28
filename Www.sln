@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27625.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Www.Web", "src\Www.Web\Www.Web.csproj", "{5445908A-3F13-498D-8C82-A6D9D2D6CAAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vikekh.Www.Web", "src\Vikekh.Www.Web\Vikekh.Www.Web.csproj", "{5445908A-3F13-498D-8C82-A6D9D2D6CAAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{855EB551-47C4-412D-8BA2-FA5408D26803}"
 EndProject
