@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssemblyName>Vikekh.Www.Web</AssemblyName>
     <RootNamespace>Vikekh.Www.Web</RootNamespace>
+    <UserSecretsId>d8170a00-d741-4ef3-b934-120565ee37a8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,7 +17,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0-preview1-final" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0-preview1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vikekh.Www.Core\Vikekh.Www.Core.csproj" />
   </ItemGroup>
 
 </Project>
