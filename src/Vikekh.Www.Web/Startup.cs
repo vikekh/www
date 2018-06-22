@@ -35,8 +35,8 @@ namespace Vikekh.Www.Web
                 app.UseExceptionHandler("/Error");
             }
 
-            app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles()
+                .UseMvcWithDefaultRoute();
         }
     }
 }

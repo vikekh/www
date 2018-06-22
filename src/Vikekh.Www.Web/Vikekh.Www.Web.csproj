@@ -5,6 +5,7 @@
     <AssemblyName>Vikekh.Www.Web</AssemblyName>
     <RootNamespace>Vikekh.Www.Web</RootNamespace>
     <UserSecretsId>d8170a00-d741-4ef3-b934-120565ee37a8</UserSecretsId>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
