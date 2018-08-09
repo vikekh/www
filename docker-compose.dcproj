@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>f691e0ff-8a51-4309-aa24-7aa08d14cc80</ProjectGuid>
+    <ProjectGuid>54eff832-7049-4d1d-840d-a13f94c5f2aa</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>vikekh.www.web</DockerServiceName>

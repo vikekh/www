@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  vikekh.www.web:
-    image: ${DOCKER_REGISTRY}vikekhwwwweb
+  www:
+    image: ${DOCKER_REGISTRY}www
     build:
       context: .
-      dockerfile: src/Vikekh.Www.Web/Dockerfile
+      dockerfile: Dockerfile
