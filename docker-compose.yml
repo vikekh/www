@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  www:
-    image: ${DOCKER_REGISTRY}www
-    build:
-      context: .
-      dockerfile: Dockerfile
