@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  www:
+    image: ${DOCKER_REGISTRY}/www
+    build:
+      context: .
+      dockerfile: Dockerfile
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
