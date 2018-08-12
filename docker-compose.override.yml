@@ -1,8 +1,7 @@
 version: '3.4'
 
 services:
-  www:
+  web:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "80"
+      ASPNETCORE_ENVIRONMENT: Development
+      VIRTUAL_HOST: vikekh.com.local

@@ -1,17 +1,17 @@
 version: '3.4'
 
 services:
-  www:
-    image: ${DOCKER_REGISTRY}/www
+  web:
+    image: vikekh/www
+    container_name: www-web
     build:
       context: .
-      dockerfile: Dockerfile
-  nginx-proxy:
-    image: jwilder/nginx-proxy
+      dockerfile: src/Vikekh.Www.Web/Dockerfile 
+    restart: always
     ports:
-      - "80:80"
-    volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - "8080:5000"
+    environment:
+      VIRTUAL_HOST: vikekh.com
 
 networks:
   default:
