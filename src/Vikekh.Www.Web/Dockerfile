@@ -17,5 +17,4 @@ RUN dotnet publish Vikekh.Www.Web.csproj -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENV ASPNETCORE_URLS http://*:5000
 ENTRYPOINT ["dotnet", "Vikekh.Www.Web.dll"]
