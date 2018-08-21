@@ -8,6 +8,8 @@ services:
       context: .
       dockerfile: src/Vikekh.Www.Web/Dockerfile 
     restart: always
+    ports:
+      - "5000"
     environment:
       VIRTUAL_HOST: vikekh.com
 
