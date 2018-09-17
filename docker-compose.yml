@@ -1,17 +1,8 @@
 version: '3.4'
 
 services:
-  web:
-    image: vikekh/www
-    container_name: www-web
+  vikekh.www.web:
+    image: ${DOCKER_REGISTRY}vikekhwwwweb
     build:
       context: .
-      dockerfile: src/Vikekh.Www.Web/Dockerfile 
-    restart: always
-    environment:
-      VIRTUAL_HOST: vikekh.com
-
-networks:
-  default:
-    external:
-      name: nginx-proxy
+      dockerfile: src/Vikekh.Www.Web/Dockerfile

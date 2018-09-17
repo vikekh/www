@@ -1,6 +1,7 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
-EXPOSE 5000
+EXPOSE 55170
+EXPOSE 44383
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
@@ -18,3 +19,6 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "Vikekh.Www.Web.dll"]
+#ASPNETCORE_ENVIRONMENT=Development
+#ASPNETCORE_URLS=https://+:443;http://+:80
+#ASPNETCORE_HTTPS_PORT=44383
