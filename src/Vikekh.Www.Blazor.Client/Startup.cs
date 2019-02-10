@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Vikekh.Www.Client
+namespace Vikekh.Www.Blazor.Client
 {
     public class Startup
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace Vikekh.Www.Client
+namespace Vikekh.Www.Blazor.Client
 {
     public class Program
     {

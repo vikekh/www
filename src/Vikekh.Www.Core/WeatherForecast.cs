@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Vikekh.Www.Shared
+namespace Vikekh.Www.Core
 {
     public class WeatherForecast
     {

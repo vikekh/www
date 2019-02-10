@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vikekh.Www.Client\Vikekh.Www.Client.csproj" />
-    <ProjectReference Include="..\Vikekh.Www.Shared\Vikekh.Www.Shared.csproj" />
+    <ProjectReference Include="..\Vikekh.Www.Blazor.Client\Vikekh.Www.Blazor.Client.csproj" />
+    <ProjectReference Include="..\Vikekh.Www.Core\Vikekh.Www.Core.csproj" />
   </ItemGroup>
 
 </Project>

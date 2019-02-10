@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace Vikekh.Www.Server
+namespace Vikekh.Www.Blazor.Server
 {
     public class Program
     {

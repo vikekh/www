@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
 
-namespace Vikekh.Www.Server
+namespace Vikekh.Www.Blazor.Server
 {
     public class Startup
     {
