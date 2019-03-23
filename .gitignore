@@ -1,6 +1,17 @@
 
-# Created by https://www.gitignore.io/api/visualstudio
-# Edit at https://www.gitignore.io/?templates=visualstudio
+# Created by https://www.gitignore.io/api/visualstudio,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=visualstudio,visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -17,6 +28,9 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+
+# Mono auto generated files
+mono_crash.*
 
 # Build results
 [Dd]ebug/
@@ -211,6 +225,8 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
+*.appxbundle
+*.appxupload
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -236,8 +252,6 @@ orleans.codegen.cs
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
-# ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
-**/wwwroot/lib/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -262,6 +276,7 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
+*- Backup*.rdl
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -296,10 +311,6 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
-
-# JetBrains Rider
-.idea/
-*.sln.iml
 
 # CodeRush personal settings
 .cr/personal
@@ -345,4 +356,7 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-# End of https://www.gitignore.io/api/visualstudio
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# End of https://www.gitignore.io/api/visualstudio,visualstudiocode
