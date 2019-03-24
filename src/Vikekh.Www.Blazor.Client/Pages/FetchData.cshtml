@@ -1,4 +1,4 @@
-﻿@page "/fetchdata"
+﻿@* @page "/fetchdata"
 @using Vikekh.Www.Blazor.Shared
 @inject HttpClient Http
 
@@ -42,4 +42,4 @@ else
     {
         forecasts = await Http.GetJsonAsync<WeatherForecast[]>("api/SampleData/WeatherForecasts");
     }
-}
+} *@
