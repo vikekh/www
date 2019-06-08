@@ -8,7 +8,7 @@ services:
       dockerfile: src/Vikekh.Www.Server/Dockerfile
     restart: always
     environment:
-      VIRTUAL_HOST: www.vikekh.com
+      VIRTUAL_HOST: vikekh.com,www.vikekh.com
 
 networks:
   default:
