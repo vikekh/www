@@ -9,6 +9,7 @@ services:
     restart: always
     environment:
       VIRTUAL_HOST: vikekh.com,www.vikekh.com
+      LETSENCRYPT_HOST: vikekh.com,www.vikekh.com
 
 networks:
   default:
