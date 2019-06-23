@@ -19,3 +19,5 @@ steps:
     repository: 'vikekh/www-server'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    buildContext: '.'
+    tags: 'latest'
